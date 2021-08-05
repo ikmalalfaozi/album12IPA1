@@ -69,6 +69,8 @@ body {
 	width: 50px;
 }
 
+close:hover { opacity: 0.5; }
+
 .besar {
 	max-height: 70%;
 	margin-top: 7%;
