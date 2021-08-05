@@ -1,26 +1,24 @@
 body { 
 	background-image: url(floor-tile.png);
-	width: 100%;
-	height: 100%;
 	margin: 0;
 }
 
-.gambar {
-	width: 610px;
-	height: 400px;
-	background-color: white;
-	margin: 0 auto;
-	padding: 10px
+.container {
+	position: relative;
 }
-.gambar img { 
-	height: 390px;
-	margin: auto;
-	border: 5px solid grey;
-	display: block;
+
+.header {
+	background-color: white;
+	text-align: center;
+}
+
+.judul {
+	font-size: 100px;
+	font-family: arial, san-serif;
 }
 
 .thumbnail {
-	height: 220px;
+	height: 100%;
 	background-color: white;
 	margin: 10px auto 0;
 	overflow: auto;
@@ -51,3 +49,30 @@ body {
 	opacity: 0;
 	animation: fadeIn 0.5s forward;
 }
+
+
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 1;
+	text-align: center;
+}
+
+.close {
+	position: fixed;
+	top: 5%;
+	width: 50px;
+}
+
+.besar {
+	max-height: 70%;
+	margin-top: 7%;
+}
+
+
+
